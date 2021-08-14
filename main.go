@@ -102,8 +102,8 @@ func fetchUser(userName string) user {
 	}
 }
 
-func updateUser(userName string) {
-
+func updateUser(userName string) bool {
+	return false
 }
 
 func deleteUser(userName string) {
